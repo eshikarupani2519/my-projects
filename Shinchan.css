@@ -1,0 +1,102 @@
+
+#icons 
+{
+   display: inline-block;
+}
+   
+.username
+{
+    display: inline-block;
+    width: 95%; 
+}
+.username img
+{
+    border-radius: 20px;
+    position: relative;
+    top: 10px;
+}
+i
+{
+    margin-right: 15px;
+}
+#plus
+{
+    
+    border: 1.5px solid black;
+    border-radius: 10px;
+    padding: 1px; 
+}
+h1
+{
+    margin-bottom: 10px;
+   
+}
+
+#profile
+{
+    margin-right: 200px;
+    border-radius: 100px;
+}
+.foll
+{
+    margin-top: 0px;
+    margin: 30px;
+    font-size: 30px;
+}
+.info
+{
+    margin-left: 20px;
+
+}
+.space
+{
+    font-size: 20px;
+    margin-right: 40px;
+}
+.bio
+{
+    font-size: 20px ;
+    font-family:Arial, Helvetica, sans-serif
+}
+button
+{
+    padding: 5px 90px;
+    margin: 5px;
+    background-color:rgb(239, 237, 237) ;
+    border: 1px solid rgb(239, 237, 237) ;
+    border-radius: 5px;
+}
+
+.box
+{
+    margin: auto;
+    display: inline-block;
+   position: relative;
+   bottom: 80px;
+}
+.image
+{
+    margin: auto;
+    display: inline-block;
+    width: 20%;
+}
+#user
+{
+   background-color: dodgerblue;
+   color: white;
+}  
+.nav-bar img
+{
+    margin-right: 85px;
+    margin-left: 85px;
+    margin-top: 25px;
+}
+hr
+{
+    margin: 1px;
+}
+#postpic
+{
+    margin-left: 0px;
+    image-resolution: 0px;
+}
