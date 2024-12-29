@@ -1,0 +1,315 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+.container
+{
+   
+    color: white;
+}
+nav a
+{
+    text-decoration: none;
+}
+.container em
+{
+    color: white;
+}
+nav
+{
+    height: 70px; 
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+.icon
+{
+    height: 50px;
+    margin: 10px; 
+}
+button
+{
+    padding: 5px;
+    border-radius: 5px;
+}
+.logo
+{
+    display: flex;
+    width: 40%;
+    align-items: center;
+}
+h1
+{
+    font-size: 50px;
+}
+nav li
+{
+    list-style-type: none;
+   
+}
+ul
+{
+    display: flex;
+    align-self: center;
+    justify-content: space-evenly;
+    width: 40%;
+flex-grow: 1;
+}
+.hero
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.hero *
+{
+    margin: 10px;
+}
+.hero em
+{
+    max-width: 300px;
+}
+.desc
+{
+    display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+.desc-part
+{
+    line-height: 1.5;
+    width: 250px;
+    /* font size + 0.5 spacing */
+}
+.desc-part i
+{
+    background-color: #1bb139;
+    padding: 10px;
+    border-radius: 50%;
+}
+em
+{
+    color:rgb(82, 75, 75);
+}
+.image
+{
+    background-image: url(amazontshirt.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+   height: 230px;
+   width: 40%;
+    position: relative;
+    top: 5%;
+}
+.row-rev
+{
+    flex-direction: row-reverse;
+  
+}
+.left
+{
+    right: 20px;
+}
+.right
+{
+    left: 100px;
+}
+
+.s-person
+{
+    display: flex;
+    flex-direction: column;
+   align-items: start;
+    background-color: rgb(243, 218, 190);
+   padding: 50px;
+   width: 100%;
+}
+.s-person *
+{
+    margin-bottom: 5px;
+ 
+}
+
+.ss-part
+{
+    display: flex;
+   margin-bottom: 30px;
+   height: 250px;
+   width: 80%;
+}
+.register
+{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    margin-top:20px ;
+    margin-bottom:20px ;  
+}
+.halfpart-img
+{
+    width: 50%;
+    height: 100%;
+    background-image: url(amazonfamily.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.form
+{
+    background-color: rgb(246, 227, 205);
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+input
+{
+    width: 100%;
+    height: 30px;
+    border: 0px;
+    margin: 10px;
+    padding: 3px;
+}
+input:focus
+{
+    outline-color: #1bb139;
+}
+.form *
+{
+    margin: 10px;
+}
+footer
+{
+    
+    width: 100%;
+    height: 100px;
+   padding: 10px;
+}
+#icons
+{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+.copy
+{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+.main
+{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://th.bing.com/th/id/OIP.vUUplUjvTz8YcuRLAIzYtwHaEK?w=240&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7);
+    background-size: cover;
+    position: relative;
+}
+.main>*
+{
+    z-index: 4;
+}
+.main::before
+{
+   content: '';
+   height: 100vh;
+   width: 100%;
+   background-color: rgba(0, 0, 0, 0.6);
+   position: absolute;
+   display: block;
+   top: 0;
+}
+@media screen and (max-width:600px){
+li
+{
+    width: 30%;
+}    
+.logo
+{
+    width: 30%;
+   
+}
+.icon
+{
+    margin: 2px;
+}
+ul
+{
+    flex-grow: 0.5;
+    align-items: center;
+}
+
+.ss-part
+{
+    border:5px solid #1bb139;
+    border-radius: 5px;
+  padding: 10px;
+    width: 90vw;
+   
+    height: 500px;
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.image
+{
+    background-size: cover;
+    height: 50%;
+    width: 100%;
+    display: block;
+    position: static;
+}
+}
+@media screen and (min-width:782px) and (max-width:992px){
+ .left
+ {
+    right: 20px;
+ } 
+ .right
+ {
+    left: 30px;
+ }  
+}
+@media screen and (min-width:601px) and (max-width:650px){
+    .right
+    {
+     left: 5px;
+    }
+    .left
+    {
+        right: 10px;
+    }
+    .ss-part
+    {
+     width: 100%;
+    }
+    }
+@media screen and (min-width:650px) and (max-width:781px){
+   .right
+   {
+    left: 5px;
+   }
+   .ss-part
+   {
+    width: 90%;
+   }
+   }
+
+/* some class::before(pseudo element) element would be first child of some class
+agar content ko remove kiya toh pseudo element nhi dikhega chahe height width kitni bhi ho 
+bhale content '' ho lekin kuch toh hona chahiye*/

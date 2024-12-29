@@ -1,0 +1,76 @@
+.container
+{
+    font-size: 20px;
+}
+
+
+body {
+    /* reset styles */
+    margin: 0;
+    padding: 0;
+}
+.profile-pic
+{
+   
+    background-size: contain;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.shin
+{
+    background-image: url(https://th.bing.com/th/id/OIP.LPlc7Vka6hswwMcAqHr5XAHaHa?pid=ImgDet&w=178&h=178&c=7&dpr=1.5);
+}
+.tj
+{
+    background-image: url(https://th.bing.com/th/id/OIP.uWJmgn-YwxDI72hTTasCuQHaFj?w=239&h=181&c=7&r=0&o=5&dpr=1.5&pid=1.7);
+}
+
+.username
+{
+    display: flex;
+   align-items: center;
+   width: 60%;
+}
+i {
+    height: 80px;
+}
+#message
+{
+    margin-left: 25px;
+}
+.icons
+{
+    display: flex;
+    justify-content: space-around;
+}
+.ribbon {
+    display: flex;
+    color: rgb(16, 15, 15);
+   
+    align-items: center;
+
+}
+
+#heading {
+    font-size: 50px;
+    font-family: Dancing Script, cursive;
+    width: 90%;
+}
+
+.option {
+    font-size: 25px;
+}
+
+img {
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+.post {
+    width: 300px;
+}
+
+h3 {
+    margin-bottom: 0px;
+}

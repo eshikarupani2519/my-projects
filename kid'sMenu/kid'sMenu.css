@@ -1,0 +1,99 @@
+.header
+{
+    background-image: url(https://th.bing.com/th/id/OIP.zZa9hBTCbAQP0jhk_JSv7wHaEK?w=326&h=183&c=7&r=0&o=5&dpr=1.5&pid=1.7);
+    height: 23rem;
+    width: 100%;
+    background-size: contain;
+}
+#fries
+{
+    background-image: url(https://th.bing.com/th/id/OIP.UyXaDth-pAyEa6iU0BfgbwHaFj?w=224&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7);
+}
+#maggie
+{
+    background-image: url(https://th.bing.com/th?id=OIP.w3bdOk5I9_T1kAKtzQS62AHaGg&w=266&h=234&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2);
+   
+}
+#jam-bread
+{
+    background-image: url(http://ts3.mm.bing.net/th?id=OIP._OzRvw_degxDCCK6dNhsIwHaHa&pid=15.1);
+   
+}
+#dal-chawal
+{
+    background-image: url(https://th.bing.com/th/id/OIP.xwObpZalQrZ4A_a1g3yP2AHaHa?w=202&h=202&c=7&r=0&o=5&dpr=1.5&pid=1.7);
+}
+#dosa
+{
+    background-image: url(http://ts1.mm.bing.net/th?id=OIP.bepcXnRrP_W5dTQEaCl00AHaE8&pid=15.1);
+}
+#sandwich
+{
+    background-image: url(https://th.bing.com/th/id/OIP.UcH4593DztRcjYnnUS75WQHaE8?w=305&h=203&c=7&r=0&o=5&dpr=1.5&pid=1.7);
+}
+#icecream
+{
+    background-image: url(https://www.mashed.com/img/gallery/30-best-ice-cream-flavors-ranked-from-worst-to-best/l-intro-1654092923.jpg);
+}
+#shakes
+{
+    background-image: url(https://th.bing.com/th/id/OIP.a8l1HIZMBwxnu_aH8X9blgHaGt?w=215&h=193&c=7&r=0&o=5&dpr=1.5&pid=1.7);
+}
+.title
+{
+    height: 10rem;
+    width: 60%;
+    margin: auto;
+}
+.sub-title
+{
+   font-size: 2rem;
+    width: 60%;
+    margin: auto;
+}
+.purple
+{
+    color: blueviolet;
+}
+.pink
+{
+    color: deeppink;
+}
+.container-md
+{
+    font-family:cursive ;
+    height: fit-content;
+}
+.yellow
+{
+    background-color: rgb(246, 226, 155);
+    height: fit-content;
+}
+.w-48
+{
+    width: 48%;
+}
+.pp
+{
+    background-color: rgb(223, 149, 235);
+}
+.image
+{
+    height: 10rem;
+    width: 10rem;
+    margin-left: 5px;
+    border-radius: 50%;
+    background-size: cover;
+    align-self: center;
+}
+.mid-row
+{
+    width: 50%;
+    margin-left: 20px;
+}
+.bg-beige
+{
+    background-color: rgb(146, 228, 244);
+    border-radius: 5px;
+    width: fit-content;
+}

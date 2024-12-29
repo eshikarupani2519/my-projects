@@ -1,0 +1,122 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+} 
+#container
+{
+    background-color: rgb(232, 198, 240);
+   
+}
+#navbar
+{
+    background-color: rgb(42, 40, 83);
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    align-items: center;
+}
+.logo
+{
+    background-image: url(https://th.bing.com/th?id=OIP.T6UN4S8JqRmh_9o-nQ7M4gHaEk&w=318&h=196&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2);
+    height: 60px;
+    width: 100px;
+    background-size: contain;
+}
+#options
+{
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+}
+#first
+{
+     width: 100%; 
+}
+ul
+{
+    list-style-type: none;
+}
+a
+{
+    text-decoration: none;
+}
+#full-content
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+}
+.content
+{
+   background-color: white;
+   color: black;
+   height: 320px;
+   width: 270px;
+   padding: 15px;
+   margin-top: 10px;
+}
+.con-image
+{
+    height: 250px;
+    width: 100%;
+}
+h2
+{
+    color: #272727;
+}
+
+#search
+{
+    display: flex;
+    align-items: center;
+    
+    width: 60%;
+}
+input
+{
+    height: 20px;
+    color: black;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 120%;
+}
+#go
+{
+    background-color:rgb(255, 115, 0);
+    padding: 1.5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#one
+{
+
+    display: flex;
+    justify-content: center;
+}
+#two
+{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 15px;
+    height: 30px;
+    align-items: center;
+
+}
+.color
+{
+    color: #272727;
+}
+#copy
+{
+    color: rgb(177, 175, 199);
+}
+footer
+{
+    background-color: rgb(42, 40, 83);
+}

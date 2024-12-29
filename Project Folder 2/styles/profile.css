@@ -1,0 +1,151 @@
+/* styles/profile.css */
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), 
+                url('https://images.unsplash.com/photo-1512560807400-5b5e12d65d7b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwyMDg4M3wwfDF8c2VhcmNofDIyfHxwcm9maWxlJTIwcGFuZWx8ZW58MHx8fHwxNjI2NTk2NDU3&ixlib=rb-1.2.1&q=80&w=1080') no-repeat center center fixed;
+    background-size: cover; /* Cover the entire viewport */
+}
+
+/* Navbar styling */
+.navbar {
+    background: linear-gradient(to right, dodgerblue,  dodgerblue); /* Gradient background */
+    overflow: hidden;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    font-size: 16px;
+    transition: all 0.3s ease; /* Smooth transition */
+    border-radius: 5px; /* Rounded edges */
+}
+
+.navbar a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Light background on hover */
+    color: #fff;
+}
+
+.navbar .active {
+    background-color: rgba(255, 255, 255, 0.3); /* Active link background */
+}
+
+/* Profile container */
+.profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Light translucent white for better readability */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+/* Profile picture styling */
+.profile-pic {
+    border-radius: 50%; /* Circular profile picture */
+    width: 150px; /* Fixed width */
+    height: 150px; /* Fixed height */
+    margin-right: 20px; /* Space between image and details */
+    border: 3px solid  dodgerblue; /* Green border */
+}
+
+/* Employee details styling */
+.employee-details {
+    flex: 1; /* Take remaining space */
+}
+
+.employee-details h3 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.employee-details p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.employee-details strong {
+    font-weight: bold;
+    color: #000;
+}
+
+/* Responsive styling for mobile */
+@media (max-width: 768px) {
+    .profile-container {
+        flex-direction: column; /* Stack image and details */
+        align-items: center; /* Center align */
+    }
+
+    .profile-pic {
+        margin: 0 0 20px 0; /* Margin at the bottom */
+    }
+
+    .employee-details h3 {
+        font-size: 24px; /* Slightly smaller font on mobile */
+    }
+
+    .employee-details p {
+        font-size: 16px; /* Slightly smaller font on mobile */
+    }
+}
+
+/* Previous Projects Section */
+.previous-projects {
+    margin-top: 40px; /* Spacing above the section */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Light translucent background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.previous-projects h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.previous-projects ul {
+    list-style-type: none; /* Remove default list styling */
+}
+
+.previous-projects li {
+    margin-bottom: 15px; /* Spacing between projects */
+    padding: 10px;
+    border-bottom: 1px solid #ddd; /* Divider line */
+}
+
+.previous-projects li:last-child {
+    border-bottom: none; /* Remove border from last item */
+}
+
+.previous-projects strong {
+    color:lightcoral;
+    font-size:larger; /* Highlighted text color */
+}
+#new-project
+{
+    width: 100%;
+    height:fit-content;
+    border: 2px solid dodgerblue;
+    border-radius: 5px;
+    text-wrap:wrap;
+}

@@ -1,0 +1,117 @@
+/* styles/login.css */
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom right, rgba(33, 150, 243, 0.6), rgba(63, 81, 181, 0.6)),
+                url('https://example.com/cool-beautiful-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff; /* Text readable against a darker background */
+}
+
+/* Login Container */
+.login-container {
+    background-color: rgba(255, 255, 255, 0.85); /* Light translucent white */
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(33, 150, 243, 0.3); /* Cool blue shadow */
+    border-radius: 15px;
+    width: 350px;
+    text-align: center;
+    animation: fadeIn 1s ease-in;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #2196F3; /* Cool blue heading */
+    font-size: 24px;
+}
+
+/* Input fields */
+.login-container input {
+    width: 100%;
+    padding: 12px;
+    margin: 15px 0;
+    border: 1px solid #BBDEFB;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #E3F2FD; /* Light cool blue background */
+    color: #333;
+}
+
+.login-container input:focus {
+    border-color: #64B5F6;
+    outline: none;
+}
+
+/* Login button */
+.login-container button {
+    background-color: #1E88E5;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in;
+}
+
+.login-container button:hover {
+    background-color: #1565C0;
+}
+
+/* Error message */
+.error {
+    color: red;
+    margin-top: 10px;
+    display: none; /* Hidden by default */
+}
+
+/* Register Link */
+.register-link {
+    margin-top: 20px;
+}
+
+.register-link p {
+    font-size: 14px;
+    color: #1E88E5;
+}
+
+.register-link a {
+    color: #1565C0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .login-container {
+        width: 90%;
+        padding: 20px;
+    }
+}

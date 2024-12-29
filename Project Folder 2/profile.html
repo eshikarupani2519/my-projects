@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Profile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles/profile.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="dashboard.html"><i class="fas fa-home"></i> Home</a>
+        <a href="profile.html" class="active"><i class="fas fa-user"></i> Profile</a>
+        <a href="#" id="logout"><i class="fas fa-sign-out-alt"></i> Logout</a>
+    </div>
+
+    <!-- Profile container with image and details -->
+    <div class="profile-container">
+        <img src="images/profile-pic.png" alt="Profile Picture" class="profile-pic">
+        <div class="employee-details">
+            <h3 id="employee-name">John Doe</h3>
+            <p><strong>Department:</strong> <span id="employee-department">Sales</span></p>
+            <p><strong>Current Project:</strong> <span id="employee-project">Market Expansion</span></p>
+            <p><strong>Time Duration:</strong> <span id="employee-duration">2 months</span></p>
+            <p><strong>Email:</strong> <span id="employee-email">johndoe@example.com</span></p>
+            <p><strong>Phone:</strong> <span id="employee-phone">+123-456-7890</span></p>
+        </div>
+    </div>
+
+    <!-- Previous Projects Section -->
+    <div class="previous-projects">
+        <h3>Previous Projects</h3>
+        <ul>
+            <li>
+                <strong>Project Title:</strong> <span>Product Launch</span> <br>
+                <strong>Duration:</strong> <span>3 months</span> <br>
+                <strong>Description:</strong> <span>Launched a new product line successfully in the market.</span>
+            </li>
+            <li>
+                <strong>Project Title:</strong> <span>Website Redesign</span> <br>
+                <strong>Duration:</strong> <span>2 months</span> <br>
+                <strong>Description:</strong> <span>Revamped the company website to improve user experience.</span>
+            </li>
+            <li>
+                <strong>Project Title:</strong> <span>Market Research</span> <br>
+                <strong>Duration:</strong> <span>4 months</span> <br>
+                <strong>Description:</strong> <span>Conducted extensive research to identify market trends.</span>
+            </li>
+        </ul>
+        <h3>Want to add new project?</h3>
+        Add here!
+        <br>
+        <input type="text" id="new-project" placeholder="add here->">
+        
+    </div>
+    
+   
+    <script src="scripts/profile.js"></script>
+</body>
+</html>
