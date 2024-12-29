@@ -39,6 +39,14 @@
 {
     background-image: url(https://th.bing.com/th/id/OIP.a8l1HIZMBwxnu_aH8X9blgHaGt?w=215&h=193&c=7&r=0&o=5&dpr=1.5&pid=1.7);
 }
+#drinks
+{
+    background-image: url(https://th.bing.com/th?id=OIP.tUQTY_P8aNore1bBZy3srAAAAA&w=333&h=187&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2);
+}
+#juices
+{
+   background-image: url( https://th.bing.com/th/id/OIP.4MGzBI-Bh7qbjDB9e-fisQHaFX?w=253&h=183&c=7&r=0&o=5&dpr=1.5&pid=1.7);
+}
 .title
 {
     height: 10rem;
@@ -91,6 +99,7 @@
     width: 50%;
     margin-left: 20px;
 }
+
 .bg-beige
 {
     background-color: rgb(146, 228, 244);
