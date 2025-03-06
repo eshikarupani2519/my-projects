@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+  font-family:cursive;
+  text-align: center;
+}
+.d-none{
+    display: none;
+}
+.d-view{
+display:flex;
+margin-right: 5rem;
+padding: 0.25rem;
+}
+
+input{
+   background-color: transparent;
+   border: 1px solid rgb(117, 132, 130);
+   height: 1.5rem;
+   border-radius: 0.5rem;
+}
+.do{
+ 
+    display: flex;  
+     align-items: center; 
+     margin-top: 1rem;
+    
+}
+.type-do{
+    
+    margin-left: 5rem;
+    padding: 0.25rem;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+nav i{
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.more{
+    border: none;
+    background-color: transparent;
+}
+.to-do{
+    background-color: rgb(196, 251, 255);
+    padding: 1rem;
+    width: 50%;
+    margin: auto;
+}
+.done{
+    background-color: rgb(111, 209, 111);
+}
