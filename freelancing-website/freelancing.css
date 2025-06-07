@@ -105,7 +105,7 @@ em
 }
 .image
 {
-    background-image: url(amazontshirt.png);
+    background-image: url(freelancingbgi.jpg);
     background-size: contain;
     background-repeat: no-repeat;
    height: 230px;
@@ -124,7 +124,7 @@ em
 }
 .right
 {
-    left: 100px;
+    left: 40px;
 }
 
 .s-person
@@ -147,8 +147,11 @@ em
     display: flex;
    margin-bottom: 30px;
    height: 250px;
-   width: 80%;
+   width: 95%;
 }
+/* #submit{
+    margin-bottom: 20px;
+} */
 .register
 {
     width: 100%;
@@ -161,7 +164,7 @@ em
 {
     width: 50%;
     height: 100%;
-    background-image: url(amazonfamily.png);
+    background-image: url(freelancingbgi.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }

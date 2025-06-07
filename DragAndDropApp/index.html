@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drag-and-Drop Website Builder</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body style="display: flex;">
+
+    <div class="sidebar">
+        <h2>Elements</h2>
+        <div class="item" draggable="true" data-type="text">Text</div>
+        <div class="item" draggable="true" data-type="image">Image</div>
+        <div class="item" draggable="true" data-type="button">Button</div>
+    </div>
+
+    <div id="canvas" ondragover="event.preventDefault()">
+        <h2 style="text-align: center;">Canvas</h2>
+    </div>
+
+    <div id="properties">
+        <h3>Edit Properties</h3>
+        <form id="propertyForm">
+            <label>Text / URL:
+                <input type="text" id="propContent" />
+            </label>
+            <label>Font Size:
+                <input type="number" id="propFontSize" />
+            </label>
+            <label>Color:
+                <input type="color" id="propColor" />
+            </label>
+            <label>Background:
+                <input type="color" id="propBackground" />
+            </label>
+            <label>Image Width (px):
+                <input type="number" id="propWidth" />
+            </label>
+            <label>Image Height (px):
+                <input type="number" id="propHeight" />
+            </label>
+        </form>
+    </div>
+</body>
+
+</html>
