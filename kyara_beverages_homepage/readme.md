@@ -21,6 +21,3 @@ The description for each drink contains it's image,name and description
 Consists of a form taking user's name,email and message that user wants to give
 
 The home page is made responsive for all types of screens,and also with a decent UI based on kyara beverage's logo's colour scheme
-
-GITHUB LINK for code:
-GITHUB LINK for working project:
