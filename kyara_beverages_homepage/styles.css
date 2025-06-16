@@ -1,0 +1,176 @@
+* {
+    font-size: 1.2rem;
+    font-weight: 500;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 98.8vw;
+    background-image: url(Pink-Lemonade-Cocktail-2.jpg);
+    background-size: cover;
+    position: relative;
+    z-index: 4;
+}
+
+.about {
+    width: 80%;
+    margin: auto;
+    border-radius: 0.5rem;
+    height: 20rem;
+}
+
+.about-content {
+
+    width: 50%;
+    font-style: italic;
+}
+
+.bg-pink {
+    background-color: rgb(249, 214, 220);
+}
+
+.logo {
+    height: 15rem;
+    width: 15rem;
+    background-repeat: no-repeat;
+    background-image: url(logo.png);
+    background-size: cover;
+    border-radius: 50%;
+    border: 0.2rem solid rgb(145, 105, 113);
+    animation: rotation 2s linear 1;
+}
+
+.hero * {
+    margin: 10px;
+}
+
+/* .hero em
+{
+    max-width: 300px;
+}  */
+.font-dancing-script {
+    font-family: "Dancing Script", cursive;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.card-img-top {
+    height: 18rem;
+}
+
+.text-grape {
+    color: rgb(96, 68, 74);
+}
+form{
+    padding: 4rem;
+    width: 50%;
+}
+input,textarea{
+    border-radius: 0.5rem;
+    min-width: 70%;
+    border: 1px solid  rgb(96, 68, 74);
+    padding: 0.2rem;
+}
+.contact-image{
+    
+    background-image: url("https://www.vivodolphinmall.com/-/media/cordish/images/district-websites/fourth-street-live/events/2022/margarita-madness-1440x560.ashx");
+    background-size: cover;
+    width: 50%;
+    background-repeat: no-repeat;
+}
+@keyframes rotation {
+    from {
+        transform: rotateY(0deg)
+    }
+
+    to {
+        transform: rotateY(360deg)
+    }
+}
+@media ((min-width:480px) and (max-width:985px)) {
+    .logo{
+        height: 10rem;
+        width: 10rem;
+        background-size: contain;
+        border: none;
+    }
+}
+@media ((min-width:714px) and (max-width:951px)) {
+    form{
+        padding: 0.5rem;
+    }
+    input,textarea{
+    border-radius: 0.5rem;
+    min-width: 30%;
+    padding: 0.1rem;
+    
+}
+.hero-content{
+        width: 60%;
+    }
+}
+@media ((min-width:460px)and (max-width:740px)) {
+    .about{
+        width: 90%;
+    }
+    .about-content{
+        width: 90%;
+    }
+    .hero-content{
+        width: 60%;
+    }
+    .form-image{
+        width: 30%;
+    }
+    form{
+        width: 70%;
+        padding: 0.2rem;
+    }
+    input,textarea{
+    border-radius: 0.5rem;
+    min-width: 15%;
+    padding: 0.1rem;
+    
+}
+}
+@media ( (max-width:515px)) {
+    .about{
+        width: 100%;
+    }
+    .about-content{
+        width: 100%;
+    }
+    input,textarea{
+    border-radius: 0.5rem;
+    min-width: 8%;
+    padding: 0.05rem;
+    
+}
+.contact-image{
+    
+    display: none;
+}
+form{
+    width: 100%;
+    padding: 0.2rem;
+}
+.logo{
+        height: 7rem;
+        width: 7rem;
+        background-size: contain;
+        border: none;
+    }
+    .hero-content{
+        width: 50%;
+    }
+    .font-dancing-script{
+        font-size: 3rem;
+    }
+}
